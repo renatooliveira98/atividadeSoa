@@ -1,5 +1,7 @@
 package br.ucsal.atividadesoa.atividadesoa;
 
+import javax.xml.ws.Endpoint;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
