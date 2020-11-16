@@ -6,6 +6,16 @@ public class MedicoModel {
 	private Especialidade especialidade;
 	private String crm;
 	
+	public MedicoModel(String nome, String cpf, Especialidade especialidade, String crm) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.especialidade = especialidade;
+		this.crm = crm;
+	}
+	public MedicoModel() {
+		super();
+	}
 	public String getNome() {
 		return nome;
 	}

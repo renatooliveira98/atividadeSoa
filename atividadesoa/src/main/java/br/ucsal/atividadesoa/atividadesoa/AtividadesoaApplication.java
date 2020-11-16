@@ -15,8 +15,12 @@ public class AtividadesoaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AtividadesoaApplication.class, args);
-		Endpoint.publish("http://127.0.0.1:9876/calc", new MedicoModel());
 		
+	}
+	
+	public void run(String... args) throws Exception {
+		Endpoint.publish("http://127.0.0.1:9876/calc", new MedicoModel());
+
 	}
 
 }
