@@ -19,7 +19,8 @@ public class AtividadesoaApplication {
 	}
 	
 	public void run(String... args) throws Exception {
-		Endpoint.publish("http://127.0.0.1:9876/calc", new MedicoModel());
+		System.out.println("http://127.0.0.1:9876/medico?wsdl");
+		Endpoint.publish("http://127.0.0.1:9876/medico", new MedicoModel());
 
 	}
 
